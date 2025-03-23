@@ -12,11 +12,11 @@ export PATH
 sh_ver="2.0.0"
 filepath=$(cd "$(dirname "$0")"; pwd)
 file_1=$(echo -e "${filepath}"|awk -F "$0" '{print $1}')
-file="/usr/local/mtproxy-go"
-mtproxy_file="/usr/local/mtproxy-go/mtg"
-mtproxy_conf="/usr/local/mtproxy-go/mtproxy.conf"
-mtproxy_log="/usr/local/mtproxy-go/mtproxy.log"
-Now_ver_File="/usr/local/mtproxy-go/ver.txt"
+file="/opt/mtproxy-go/mtproxy-go"
+mtproxy_file="/opt/mtproxy-go/mtg"
+mtproxy_conf="/opt/mtproxy-go/mtproxy.conf"
+mtproxy_log="/opt/mtproxy-go/mtproxy.log"
+Now_ver_File="/opt/mtproxy-go/ver.txt"
 Crontab_file="/usr/bin/crontab"
 
 Green_font_prefix="\033[32m" && Red_font_prefix="\033[31m" && Green_background_prefix="\033[42;37m" && Red_background_prefix="\033[41;37m" && Font_color_suffix="\033[0m"
